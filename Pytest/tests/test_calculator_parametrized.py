@@ -82,3 +82,4 @@ def test_log(a, b, expected_expection, expected_msg):
     with pytest.raises(expected_expection) as exc:
         calculator.log(a, b)
     assert str(exc.value) == expected_msg
+    
